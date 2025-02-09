@@ -46,7 +46,7 @@ php artisan migrate
 
 4️⃣ Run the Application
 php artisan serve
-
+```
 Now open http://127.0.0.1:8000 in your browser.
 
 🖥️ API Endpoints
