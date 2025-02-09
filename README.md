@@ -55,8 +55,8 @@ Now open http://127.0.0.1:8000 in your browser.
 🖥️ API Endpoints
 ```
 Method	    Endpoint	    Description
-GET   	    /todos	        Fetch all tasks
-POST	    /todos	        Add a new task
+GET   	    /todos          Fetch all tasks
+POST	    /todos          Add a new task
 PUT   	    /todos/{id}	    Update a task
 DELETE	    /todos/{id}	    Delete a task
 ```
