@@ -25,12 +25,14 @@ This is a **To-Do List** application built using **Laravel (PHP), JavaScript, HT
 ```sh
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-
+```
 2️⃣ Install Dependencies
+```
 composer install
 npm install
-
+```
 3️⃣ Setup the Database
+```
 Create a database in MySQL (e.g., todo_list_db).
 Configure the .env file with database details:
 
@@ -43,8 +45,9 @@ DB_PASSWORD=yourpassword
 
 Run migrations:
 php artisan migrate
-
+```
 4️⃣ Run the Application
+```
 php artisan serve
 ```
 Now open http://127.0.0.1:8000 in your browser.
