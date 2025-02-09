@@ -1,0 +1,38 @@
+# Laravel & PHP-specific files
+/vendor/
+.env
+.env.*
+/storage/*.key
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/debugbar
+/storage/framework/*
+/storage/logs/*
+/bootstrap/cache/
+
+# Frontend dependencies & build files
+/node_modules/
+/public/build/
+/public/hot/
+/public/storage/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# PHPUnit & IDE files
+/.phpunit.cache
+/.phpunit.result.cache
+.phpactor.json
+Homestead.json
+Homestead.yaml
+
+# Editor & IDE-specific files
+/.idea/
+/.vscode/
+/.fleet/
+/.nova/
+/.zed/
+
+# Miscellaneous
+/auth.json
+now
